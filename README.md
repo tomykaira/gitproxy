@@ -50,3 +50,9 @@ heroku config:add \
 ```
 
 Use `https://YOUR_APP_NAME.herokuapp.com/` in place of the remote URL.
+
+# License
+
+This software is distributed under [the MIT License](http://opensource.org/licenses/MIT).
+
+Copyright (c) 2015 tomykaira

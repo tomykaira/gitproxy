@@ -10,7 +10,7 @@ Reference: [Creating an access token for command-line use - User Documentation](
 Start the server with following environment variables.
 
 - `PORT`: HTTP port on which the server runs.
-- `GITPROXY_REMOTE_URL`: Remote url, like `https://github.com`
+- `GITPROXY_REMOTE_URL`: Remote repository url, like `https://github.com/USER/REPO`
 - `GITPROXY_ACCESSOR_USER`: Username used to authenticate who pushes in place of you.
 - `GITPROXY_ACCESSOR_PASS`: Password.
 - `GITPROXY_REMOTE_USER`: Your basic authentication account on the remote server. Username in case of GitHub.
@@ -29,7 +29,7 @@ Clone the target repository like `git clone https://github.com/USER/REPO.git`.
 In the git directory, change push URL.
 
 ```
-git remote set-url --push origin https://GITPROXY.example.com/USER/REPO.git
+git remote set-url --push origin https://GITPROXY.example.com
 ```
 
 When you `git push`, git asks accessor username/password.
